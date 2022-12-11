@@ -1,27 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400;500;600&family=Rubik+80s+Fade&display=swap");
+
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: #f47460;
   text-align: center;
-  color: white;
+  color: rgb(233, 85, 65);
+  /* font-family: "Rubik 80s Fade", cursive; */
+  font-family: "Martian Mono", monospace;
 }
 
 p {
-  margin:0;
+  margin: 0;
 }
 
 .container {
   height: 100%;
-  background-color: #181818;
+  background-color: #74b2fa;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  /* align-items: center; */
 }
 
 .header-container {
   padding-top: 30px;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,7 +37,7 @@ header{
   margin: 0;
   font-size: 35px;
   font-weight: bold;
-  color: white;
+  color: rgb(111, 22, 245);
 }
 
 .subtitle {
@@ -40,18 +45,18 @@ header{
   color: white;
 }
 
-.left{
+.left {
   text-align: left;
   margin-left: 10%;
 }
 
-.logo{
+.logo {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
 
-.right{
+.right {
   display: flex;
   background: black;
   border-radius: 16px;
@@ -113,19 +118,19 @@ header{
   padding: 0px 2rem;
 }
 
-.mint-button:disabled{
+.mint-button:disabled {
   background: #550072;
   color: rgb(209, 209, 209);
   cursor: not-allowed;
 }
 
-.mint-row{
+.mint-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.edit-button{
+.edit-button {
   border-radius: 50%;
   cursor: pointer;
   margin-left: 3px;
@@ -135,10 +140,9 @@ header{
   background-color: transparent;
 }
 
-.edit-icon{
+.edit-icon {
   width: 12px;
 }
-
 
 .footer-container {
   display: flex;
@@ -158,7 +162,7 @@ header{
   font-weight: bold;
 }
 
-.form-container{
+.form-container {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -166,7 +170,7 @@ header{
   align-items: center;
 }
 
-input{
+input {
   border: 0;
   border-radius: 12px;
   background-color: black;
@@ -188,14 +192,13 @@ input:focus {
   outline: none;
 }
 
-.first-row{
+.first-row {
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-
 }
 
 .tld {
@@ -205,7 +208,7 @@ input:focus {
   color: white;
   /* left: -70px; */
   right: 22px;
-  margin: 0;  
+  margin: 0;
   padding: 0;
   margin-bottom: 13px;
 }
@@ -248,16 +251,16 @@ input:focus {
   background-color: lightgreen;
 }
 
-.link{
+.link {
   color: black;
   text-decoration: none;
 }
 
-.underlined{
+.underlined {
   text-decoration: underline;
 }
 
-.underlined:hover{
+.underlined:hover {
   cursor: pointer;
 }
 
